@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@pinia-plugin-persistedstate/nuxt",
     "@nuxtjs/eslint-module",
+    "@nuxtjs/i18n",
   ],
   piniaPersistedstate: {
     storage: "localStorage",

@@ -4,14 +4,22 @@
   },
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
-  "explorer.fileNesting.patterns": {
+  "terminal.integrated.scrollback": 10000,
+  // 国际化相关
+  "i18n-ally.localesPaths": [
+    "locales"
+  ],
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.pathMatcher": "{locale}.{ext}",
+  "i18n-ally.enabledParsers": ["ts"],
+  "i18n-ally.sourceLanguage": "zh",
+  "i18n-ally.displayLanguage": "zh",
+  "i18n-ally.enabledFrameworks": ["vue"],
+   // 文件嵌套相关
+   "explorer.fileNesting.patterns": {
     "package.json": "pnpm-lock.yaml,pnpm-workspace.yaml,LICENSE,.gitattributes,.gitignore,.gitpod.yml,CNAME,README*,.npmrc,.browserslistrc",
     ".eslintrc": ".eslintignore,.prettierignore,.stylelintignore,.commitlintrc.js,.prettierrc.js,.stylelintrc.js",
-    "nuxt.config.ts": "uno.config.ts",
+    "nuxt.config.ts": "*.config.ts",
     "index.d.ts": "*.d.ts"
   },
-  "terminal.integrated.scrollback": 10000,
-  // "css.validate": false,
-  // "less.validate": false,
-  // "scss.validate": false,
 }
