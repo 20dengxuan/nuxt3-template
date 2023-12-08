@@ -2,8 +2,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "explorer.fileNesting.enabled": true,
-  "explorer.fileNesting.expand": false,
+
   "terminal.integrated.scrollback": 10000,
   // 国际化相关
   "i18n-ally.localesPaths": [
@@ -16,6 +15,8 @@
   "i18n-ally.displayLanguage": "zh",
   "i18n-ally.enabledFrameworks": ["vue"],
    // 文件嵌套相关
+   "explorer.fileNesting.enabled": true,
+   "explorer.fileNesting.expand": false,
    "explorer.fileNesting.patterns": {
     "package.json": "pnpm-lock.yaml,pnpm-workspace.yaml,LICENSE,.gitattributes,.gitignore,.gitpod.yml,CNAME,README*,.npmrc,.browserslistrc",
     ".eslintrc": ".eslintignore,.prettierignore,.stylelintignore,.commitlintrc.js,.prettierrc.js,.stylelintrc.js",

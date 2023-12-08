@@ -1,10 +1,10 @@
-import zh from "./locales/zh";
-import en from "./locales/en";
+import zhCN from "./locales/zh";
+import enUS from "./locales/en";
 export default defineI18nConfig(() => ({
   legacy: false,
-  locale: "zh",
+  locale: "zhCN",
   messages: {
-    en,
-    zh,
+    enUS,
+    zhCN,
   },
 }));

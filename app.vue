@@ -1,8 +1,7 @@
 <template>
   <NConfigProvider
+    v-bind="{ ...localeBind }"
     :theme="lightTheme"
-    :locale="zhCN"
-    :date-locale="dateZhCN"
     :theme-overrides="themeOverrides"
   >
     <NuxtLayout>
@@ -12,15 +11,18 @@
 </template>
 
 <script lang="ts" setup>
-import { NConfigProvider, lightTheme, zhCN, dateZhCN } from "naive-ui";
-
+import { NConfigProvider, lightTheme } from "naive-ui";
 import type { GlobalThemeOverrides } from "naive-ui";
+import { useCustomI18n } from "@/locales";
+
 const themeOverrides: GlobalThemeOverrides = {
   common: {
-    primaryColor: "#1890ff",
-    primaryColorHover: "#1890ff",
-    primaryColorPressed: "#1890ff",
-    primaryColorSuppl: "#1890ff",
+    primaryColor: "#a31f34",
+    primaryColorHover: "#a31f34",
+    primaryColorPressed: "#a31f34",
+    primaryColorSuppl: "#a31f34",
   },
 };
+
+const { localeBind } = useCustomI18n();
 </script>

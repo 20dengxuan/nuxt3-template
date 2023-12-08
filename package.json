@@ -17,6 +17,7 @@
     "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/i18n": "8.0.0-rc.5",
     "@unocss/nuxt": "^0.57.1",
+    "@vicons/fa": "^0.12.0",
     "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-nuxt": "^4.0.0",
@@ -32,6 +33,8 @@
   "dependencies": {
     "@pinia-plugin-persistedstate/nuxt": "^1.1.2",
     "@pinia/nuxt": "^0.5.1",
+    "@vicons/ionicons5": "^0.12.0",
+    "@vueuse/core": "^10.5.0",
     "pinia": "^2.1.7"
   }
 }

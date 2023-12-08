@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   piniaPersistedstate: {
     storage: "localStorage",
   },
-  css: ["@unocss/reset/tailwind.css"],
+  css: ["@unocss/reset/tailwind-compat.css"],
   nitro: {
     devProxy: {
       "/exhibition": {
